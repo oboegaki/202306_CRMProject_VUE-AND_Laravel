@@ -1,0 +1,6 @@
+CSRF(シーサーフ)
+。(Cross-Site Request Forgeries(偽造) の略)
+・悪意のあるURLにアクセスし、思わぬリクエスト(情報)を利用されてしまう
+・対策： 正しいページからアクセスがきているかトークンを発行して確認する
+・Laravel @csrfで対応
+・Inertia 既に対応されている (X-XSRF-TOKEN)

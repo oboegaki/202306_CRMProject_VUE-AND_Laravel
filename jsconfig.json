@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve", // JSXを使うと、div,p,ul,liなどのHTMLタグを使用することが可能になる
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "resources/js/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "public"
+    ]
+}
